@@ -1,0 +1,31 @@
+API Key : 280f62eae6968c48859ab55b5fbeda68
+
+API Access Token :eyJhbGciOiJIUzI1NiJ9.
+                  eyJhdWQiOiIyODBmNjJlYWU2OTY4YzQ4ODU5YWI1NWI1ZmJlZ
+                  GE2OCIsInN1YiI6IjY0Y2E0YzBjMGI3NGU5MDBhYzY2YmJkNCI
+                  sInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.
+                  q7JVWxOSgu7a_otvFm0HKA0J1hR9WxVfesVbMgx6HaU
+
+For movies:
+https://api.themoviedb.org/3/movie/157336?api_key=280f62eae6968c48859ab55b5fbeda68
+
+for Search:
+https://api.themoviedb.org/3/search/movie?query={movie_name}&api_key=280f62eae6968c48859ab55b5fbeda68
+
+Now playing:
+
+https://api.themoviedb.org/3/movie/now_playing?api_key=280f62eae6968c48859ab55b5fbeda68
+popular:
+https://api.themoviedb.org/3/movie/popular
+
+TopRated:
+https://api.themoviedb.org/3/movie/top_rated?api_key=280f62eae6968c48859ab55b5fbeda68
+
+Upcoming:
+https://api.themoviedb.org/3/movie/upcoming
+
+MoviesDetails:
+https://api.themoviedb.org/3/movie/{movie_id}
+
+For Images :
+https://image.tmdb.org/t/p/w500/${poster_path}

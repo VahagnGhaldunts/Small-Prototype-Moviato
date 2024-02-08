@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+main {
+    margin: auto;
+    min-height: 100dvh;
+    padding: 10px;
+    margin-left: 50px;
+}
+/* for target zoom 90 : 110 % */
+/* @media (min-width: 1100px) and (max-width: 1200px) {
+    .my-element {
+        margin-left: 50px;
+        margin-right: 50px;
+
+    }
+} */
+/* for target zoom 100% */
+
+/* @media (min-width: 950px) and (max-width: 1100px) {
+    .my-element {
+        margin-left: 30px;
+        margin-right: 30px;
+
+
+    }
+} */
