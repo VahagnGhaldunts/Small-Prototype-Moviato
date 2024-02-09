@@ -49,7 +49,6 @@ export const MovieDetail = () => {
               <svg
                 className="w-5 h-5 text-yellow-300 mr-1"
                 aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
                 viewBox="0 0 22 20"
               >
@@ -87,13 +86,13 @@ export const MovieDetail = () => {
         </section>
 
         <div className="relative max-w-2xl bg-white rounded-lg border pt-4 mx-auto mt-20">
-          <div className="absolute px-2 top-0 -left-[0.5] bg-indigo-200 rounded-tl-lg rounded-br-lg">
+          <div className="absolute px-2 top-0 ">
             <h2 className="text-md font-semibold text-gray-800">Discussion</h2>
           </div>
           <form>
             <div className="w-full px-3 mb-2 mt-6">
               <textarea
-                className="bg-gray-100 rounded border border-gray-400 leading-normal w-full h-28 p-3 font-medium placeholder-gray-400 focus:outline-none focus:bg-white"
+                className="bg-gray-100 rounded border border-gray-500 leading-normal w-full h-28 p-3 font-medium placeholder-gray-500  focus:bg-white"
                 name="body"
                 placeholder="Your comment"
                 required=""
